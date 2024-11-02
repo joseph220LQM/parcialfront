@@ -16,7 +16,7 @@ export default function Signup({ role }) {
     // Obtén la lista de departamentos del backend
     const fetchDepartamentos = async () => {
       try {
-        const response = await fetch('https://promocion-back.vercel.app/user/departamentos');
+        const response = await fetch('https://parcialback.vercel.app/user/departamentos');
         const data = await response.json();
         setDepartamentos(data);
       } catch (error) {
@@ -53,7 +53,7 @@ export default function Signup({ role }) {
     }
 
         try {
-            const response = await fetch('https://promocion-back.vercel.app/user/signup', {
+            const response = await fetch('https://parcialback.vercel.app/user/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
