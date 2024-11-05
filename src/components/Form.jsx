@@ -43,7 +43,7 @@ export default function Login({ callback }) {
   return (
     <div className="login-container">
       <div className="login-form-container">
-        <h2 className="h2Login">¡Entra y gana como loco!</h2>
+        <h2 className="h2Login">¡Entra y gana como tu premio!</h2>
         <form className="login-form" onSubmit={validateUser}>
           <div className="form-group">
             <label id='labellogin' htmlFor="email-address">Correo electrónico</label>        

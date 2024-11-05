@@ -1,7 +1,12 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background: rgb(56,41,147);
-    background-image: radial-gradient(37.88% 68.62% at 50% 0, #1103284d, #08041000 10%), radial-gradient(10% 10% at 10% 10%, #8342f4a1, #080d1c66 0%, #035b9f00), radial-gradient(100% 28.09% at 100% 10%, #0d0c1a33, #46007c1a 80%, #00007c00), linear-gradient(180deg, #44007c13 35.79%, #46007c0d 100%, #100d17 80%), radial-gradient(74.84% 135.56% at 100% 10%, #290a9776, #0e0d17 90%);
+    background: rgb(34, 139, 34); /* Cambiado a un tono verde oscuro */
+    background-image: 
+        radial-gradient(37.88% 68.62% at 50% 0, #1f4d32b3, #0a1f1900 10%), /* Degradado en tonos verdes */
+        radial-gradient(10% 10% at 10% 10%, #2ecc71a1, #1b3f4666 0%, #135a1f00), /* Tonos de verde claro */
+        radial-gradient(100% 28.09% at 100% 10%, #2a393e33, #007c762a 80%, #007c0000), /* Verde oscuro y turquesa */
+        linear-gradient(180deg, #00640013 35.79%, #005d4d0d 100%, #14322b 80%), /* Verde bosque y verde pino */
+        radial-gradient(74.84% 135.56% at 100% 10%, #0a533d76, #102f1b 90%); /* Verde esmeralda y verde oscuro */
     font-family: Arial, Helvetica, sans-serif;
 }
